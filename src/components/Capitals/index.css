@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.capitals-app {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.countries-and-capitals-container {
+  background-color: #ffffff;
+  border-radius: 13px;
+  padding: 14px;
+  width: 60vh;
+  padding-left: 40px;
+}
+.heading {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #000000;
+  
+}
+.capital-container {
+  display: flex;
+}
+.select-list {
+  width: 230px;
+  height: 30px;
+  box-shadow: white;
+  border: 1px solid #cbd2d9;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.description{
+  font-size: 12px;
+  font-family: "roboto";
+  color: #000000;
+  margin-left: 20px;
+}
